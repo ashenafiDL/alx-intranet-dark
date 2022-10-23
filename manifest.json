@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ALX intranet dark",
+    "description": "This extension will provide a dark mode support for ALX intranet",
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {},
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}

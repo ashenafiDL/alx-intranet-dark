@@ -1,0 +1,21 @@
+main,
+div.sidebar,
+.sidebar>ul>li:last-child,
+div.sidebar>a.logo-container {
+    background: #2e2f30;
+}
+
+div.logged_out_form,
+.panel {
+    background-color: #474849 !important;
+    box-shadow: none;
+    border: 1px solid #e7e7e769;
+}
+
+label.control-label {
+    color: #efefef;
+}
+
+.panel {
+    border-radius: 10px;
+}
