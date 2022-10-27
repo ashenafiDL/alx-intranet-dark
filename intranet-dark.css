@@ -1,21 +1,66 @@
-main,
+/* CSS style for login form */
+
+
+/* CSS style for home page */
+body {
+    background-color: #2D333B !important;
+}
+
+div.logo {
+    filter: invert(100%);
+}
+
+a.logo-container {
+    border-bottom: 1px solid #e5e6e67a !important;
+}
+
+a.logo-container,
 div.sidebar,
-.sidebar>ul>li:last-child,
-div.sidebar>a.logo-container {
-    background: #2e2f30;
+div.sidebar>ul>li:last-child {
+    background: #373E47 !important;
+    border-right-color: #e5e6e67a !important;
 }
 
-div.logged_out_form,
+.navigation hr,
+div.sidebar>ul>li:last-child {
+    border-top-color: #e5e6e67a !important;
+}
+
+.navigation>ul>li a .icon,
+.navigation>ul>li a .image {
+    color: #cdd9e5 !important;
+}
+
+
+/* panels */
+.panel-default>.panel-heading,
+thead {
+    background-color: #444C56 !important;
+}
+
+.panel.panel-default .panel-heading .panel-title {
+    color: #cdd9e5 !important;
+}
+
+.panel.panel-default .panel-heading .panel-title i.panel-title-icon {
+    background-color: #545c66dc !important;
+}
+
+.list-group-item,
 .panel {
-    background-color: #474849 !important;
-    box-shadow: none;
-    border: 1px solid #e7e7e769;
+    background-color: #373E47 !important;
+    color: #cdd9e5;
 }
 
-label.control-label {
-    color: #efefef;
+.user-select-none {
+    box-shadow: none !important;
 }
 
-.panel {
-    border-radius: 10px;
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #545c66dc !important;
+}
+
+td,
+th {
+    color: #cdd9e5;
 }
