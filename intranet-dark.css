@@ -1,12 +1,30 @@
 /* CSS style for login form */
+.logged_out_form {
+    background-color: #444C56 !important;
+    box-shadow: none !important;
+}
 
+label {
+    color: #cdd9e5;
+}
+
+.form-control {
+    background-color: #2D333B !important;
+    color: #cdd9e5 !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: 2px solid rgb(102, 174, 233) !important;
+}
 
 /* CSS style for home page */
 body {
     background-color: #2D333B !important;
 }
 
-div.logo {
+div.logo,
+h2.hbtn_logo {
     filter: invert(100%);
 }
 
@@ -33,23 +51,45 @@ div.sidebar>ul>li:last-child {
 
 
 /* panels */
-.panel-default>.panel-heading,
-thead {
-    background-color: #444C56 !important;
-}
-
-.panel.panel-default .panel-heading .panel-title {
+.gap {
     color: #cdd9e5 !important;
 }
 
-.panel.panel-default .panel-heading .panel-title i.panel-title-icon {
+.panel-default>.panel-heading,
+thead,
+.alert-info {
+    background-color: #444C56 !important;
+    border-color: rgba(229, 230, 230, 0.48) !important;
+}
+
+.panel.panel-default .panel-heading .panel-title,
+td,
+th,
+h1,
+.h1,
+p {
+    color: #cdd9e5 !important;
+}
+
+.help-block {
+    filter: opacity(.6);
+}
+
+.panel.panel-default .panel-heading .panel-title i.panel-title-icon,
+pre {
     background-color: #545c66dc !important;
 }
 
+pre>code {
+    background-color: transparent !important;
+}
+
+.panel,
 .list-group-item,
-.panel {
+.panel-footer {
     background-color: #373E47 !important;
     color: #cdd9e5;
+    border-color: rgba(229, 230, 230, 0.48) !important
 }
 
 .user-select-none {
@@ -60,7 +100,7 @@ thead {
     background-color: #545c66dc !important;
 }
 
-td,
-th {
-    color: #cdd9e5;
+code {
+    color: #ff5858 !important;
+    background-color: rgba(240, 101, 101, 0.137) !important;
 }
