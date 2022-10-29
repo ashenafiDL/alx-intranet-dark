@@ -1,6 +1,7 @@
 # alx-intranet-dark
 Simple chrome extension for dark mode support for ALX intranet.
 
+![login screen dark](./screenshots/login_screen_dark.png)
 
 You might be wondering why I decides to write my own extension
 since there are countless extensions
